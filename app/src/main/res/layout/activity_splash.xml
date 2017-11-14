@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:fitsSystemWindows="true"
+    tools:context="com.androcart.SplashActivity">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/app_logo"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:id="@+id/dummy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textColor="#48689a"
+                android:text="Andro Cart" />
+
+        </LinearLayout>
+</FrameLayout>
